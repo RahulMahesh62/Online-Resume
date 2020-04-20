@@ -16,10 +16,14 @@ nav {
     flex: 1;
     height: 100vh;
     width: 270px;
-    background-color: #eb3b5a;
+    background-color: #222f3e;
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: large;
+}
+
+nav h3 {
+    display: none;
 }
 
 img{
@@ -63,5 +67,62 @@ nav a:hover {
 
 h1, h2 , h4 {
     font-family: 'Saira Extra Condensed', sans-serif;
-    color: #343a40;
+    color: #222f3e;
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+    nav {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        height: 7vh;
+    }
+
+    nav h3 {
+        display: block;
+        padding-top: 8px;
+        padding-left: 8px;
+        color: white;
+        float: left;
+    }
+
+    img {
+        display: none;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    main {
+        display: block;
+        margin: 0;
+        margin-bottom: 0;
+        overflow-y: scroll;
+    }
+
+    footer{
+        display: block;
+        background-color: #222f3e;
+        color: white; 
+        padding: 7px;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer h3{
+        text-align: justify;
+        justify-content: center;
+        align-self: center;
+    }
+
 }
