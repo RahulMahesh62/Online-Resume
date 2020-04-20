@@ -1,2 +1,2 @@
 # Online-Portfolio
-A simple portfolio website created using HTML, CSS and JS.
+A simple resume website created using HTML, CSS and JS.
