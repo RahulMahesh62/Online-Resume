@@ -54,9 +54,14 @@ nav a:hover {
 }
 
 #content {
-    background-color: #485460;
+    background-color: #747d8c;
     color: white;
     flex: 4;
     overflow-y: scroll;
     font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2 , h4 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #343a40;
 }
