@@ -119,6 +119,19 @@ p {
     color: #2d3436;
 }
 
+.fav {
+    display: inline;
+}
+
+
+.fav img {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+
 footer {
     display: none;
     font-family: 'Baloo Bhai 2', cursive;
