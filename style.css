@@ -10,6 +10,8 @@ html {
 
 main {
     display: flex;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 nav {
@@ -76,9 +78,12 @@ section {
 
 footer {
     display: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    justify-content: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
     nav {
         display: block;
@@ -106,8 +111,12 @@ footer {
     main {
         display: block;
         margin: 0;
-        margin-bottom: 0;
-        overflow-y: scroll;
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        flex-direction: column;
     }
 
     footer{
