@@ -161,9 +161,20 @@ p {
     font-family: 'Baloo Bhai 2', cursive;
 }
 
-
 h3 {
     font-size: 2rem;
+}
+
+.skillz {
+    display: inline-block;
+    margin-top: -60px;
+    margin-left: -40px;
+}
+
+.skillz img {
+    padding-top: 0px;
+    height: 80px;
+    width: 80px;
 }
 
 footer {
