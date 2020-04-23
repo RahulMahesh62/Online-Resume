@@ -23,7 +23,7 @@ nav {
     flex: 1;
     height: 100vh;
     width: 270px;
-    background-color: #FC427B;
+    background-color: #eb3b5a;
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: large;
@@ -103,7 +103,7 @@ p {
 
 #snm {
     display: inline;
-    color: #FC427B;
+    color: #eb3b5a;
 }
 
 .subheading {
@@ -131,6 +131,39 @@ p {
     padding-right: 5px;
     height: 45px;
     width: 45px;
+}
+
+
+.edcont {
+    padding-top: 70px;
+}
+
+.edcont h5 {
+    color: #eb3b5a;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ed1 {
+    padding-top: 60px;
+}
+
+.ed1 h5 {
+    color: #eb3b5a;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ed2 {
+    padding-top: 60px;
+}
+
+.ed2 h5 {
+    color: #eb3b5a;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+h3 {
+    font-size: 2rem;
 }
 
 footer {
