@@ -183,6 +183,10 @@ h3 {
     -o-border-radius: 50%;
 }
 
+#projects a:hover {
+    color: white;
+}
+
 footer {
     display: none;
     font-family: 'Baloo Bhai 2', cursive;
