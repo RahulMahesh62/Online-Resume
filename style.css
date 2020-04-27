@@ -139,16 +139,16 @@ p {
 }
 
 .edcont h5 {
-    color: #fc5c65;
+    color: #e17055;
     font-family: 'Baloo Bhai 2', cursive;
 }
 
 .ed1 {
-    padding-top: 60px;
+    padding-top: 55px;
 }
 
 .ed1 h5 {
-    color: #fc5c65;
+    color: #e17055;
     font-family: 'Baloo Bhai 2', cursive;
 }
 
@@ -157,7 +157,7 @@ p {
 }
 
 .ed2 h5 {
-    color: #fc5c65;
+    color: #e17055;
     font-family: 'Baloo Bhai 2', cursive;
 }
 
@@ -197,8 +197,16 @@ h3 {
 
 .procont  h5 {
     color: #3498db;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
+#certification a {
+    text-decoration: none;
+}
+
+#certification a:hover {
+    color: white;
+}
 
 a:hover {
     color: white;
