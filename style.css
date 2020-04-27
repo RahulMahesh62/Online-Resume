@@ -191,6 +191,14 @@ h3 {
     color: white;
 }
 
+.procont {
+    padding-top: 50px;
+}
+
+.procont  h5 {
+    color: #fc5c65 ;
+}
+
 
 a:hover {
     color: white;
