@@ -233,13 +233,13 @@ footer {
     align-items: center;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 200px) {
 
     nav {
         display: block;
+        margin: 0;
+        height: 50px;
         width: 100%;
-        margin-top: 0;
-        height: 7vh;
     }
 
     nav h3 {
@@ -268,6 +268,12 @@ footer {
     body {
         display: block;
         height: 100%;
+        margin: 0;
+        width:100%;
+    }
+
+    #mobile {
+        display: block;
     }
 
     #about {
@@ -275,7 +281,7 @@ footer {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 50px;
+        padding-left: 45px;
         padding-top: 25px;
     }
 
@@ -285,6 +291,14 @@ footer {
         align-items: center;
         align-content: center;
         justify-content: center;
+    }
+
+    a {
+        padding-top: 20px;
+    }
+
+    #certification {
+        margin-bottom: 70px;
     }
 
     footer{
