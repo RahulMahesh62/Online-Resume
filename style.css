@@ -270,6 +270,15 @@ footer {
         height: 100%;
     }
 
+    #about {
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+
     p, h5{
         display: block;
         text-align: justify;
@@ -282,12 +291,15 @@ footer {
         display: block;
         background-color: #222f3e;
         color: white; 
-        padding: 7px;
         margin: 0;
+        padding: 7px 19px;
+        padding-left: 72px;
         width: 100%;
     }
 
     footer h3{
+        color: white;
+        font-size: 24px;
         text-align: justify;
         justify-content: center;
         align-self: center;
