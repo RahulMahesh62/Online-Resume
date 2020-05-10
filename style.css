@@ -229,6 +229,8 @@ a:hover {
 footer {
     display: none;
     font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1rem;
+    text-decoration: none;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -273,7 +275,6 @@ footer {
         height: 100%;
         margin: 0;
         width:100%;
-        margin-left: 0;
     }
 
     #mobile {
@@ -286,12 +287,7 @@ footer {
         margin: 0px auto;
     }
 
-    #education {
-        margin-top: -70px;
-    }
-
     .edconn {
-        background-color: pink;
         margin-top: -30px;
         padding-bottom: 0px;
     }
@@ -324,7 +320,6 @@ footer {
     }
 
     section {
-        margin-bottom: 100px;
         height: auto;
     }
 
@@ -379,9 +374,5 @@ footer {
         justify-content: center;
         align-self: center;
     }
-
-}
-
-@media only screen and (max-width: 400px) {
 
 }
