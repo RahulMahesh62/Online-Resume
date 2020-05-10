@@ -281,12 +281,6 @@ footer {
         display: block;
     }
 
-    .skillz {
-        text-align: center;
-        justify-content: center;
-        margin: 0px auto;
-    }
-
     .edconn {
         margin-top: -30px;
         padding-bottom: 0px;
@@ -295,15 +289,6 @@ footer {
     .proccon {
         margin-top: -30px;
         margin-bottom: 100px;
-    }
-
-    .skillimg {
-        display: block;
-        text-align: center;
-        justify-content: center;
-        margin: -50px auto;
-        height: 150px;
-        width: 150px;
     }
 
     #about {
