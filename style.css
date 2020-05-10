@@ -182,9 +182,10 @@ h3 {
 
 
 .skillz img {
+    margin-top: 130px;
     padding-top: 0px;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -279,6 +280,36 @@ footer {
         display: block;
     }
 
+    .skillz {
+        text-align: center;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    #education {
+        margin-top: -70px;
+    }
+
+    .edconn {
+        background-color: pink;
+        margin-top: -30px;
+        padding-bottom: 0px;
+    }
+
+    .proccon {
+        margin-top: -30px;
+        margin-bottom: 100px;
+    }
+
+    .skillimg {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: -50px auto;
+        height: 150px;
+        width: 150px;
+    }
+
     #about {
         text-align: center;
         justify-content: center;
@@ -292,13 +323,17 @@ footer {
         margin-top: -30px;;
     }
 
-    .seccon {
-        margin-top: -7vh;
-        margin-bottom: 15vh;
+    section {
+        margin-bottom: 100px;
+        height: auto;
     }
 
-    section {
-        margin-bottom: 15vh;
+    #projects {
+        background-color: rebeccapurple;
+    }
+
+    .procontt{
+        padding-top: 50px;
     }
 
     p, h5{
@@ -313,8 +348,18 @@ footer {
         padding-top: 20px;
     }
 
+    #skills {
+        background-color: rosybrown;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #skills h3 {
+        margin-bottom: -100px;
+    }
+
     #certification {
-        margin-bottom: 70px;
+        margin-bottom: 10px;
     }
 
     footer{
@@ -334,5 +379,9 @@ footer {
         justify-content: center;
         align-self: center;
     }
+
+}
+
+@media only screen and (max-width: 400px) {
 
 }
