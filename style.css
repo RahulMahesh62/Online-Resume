@@ -93,7 +93,7 @@ h2 {
 }
 
 section {
-    padding: 40px;
+    padding: 45px;
     height: 100vh;
 }
 
@@ -361,4 +361,19 @@ footer {
         align-self: center;
     }
 
+}
+
+@media only screen and (max-width: 950px) {
+
+    section {
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+
+    section {
+        height: auto;
+    }
 }
