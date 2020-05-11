@@ -276,7 +276,6 @@ footer {
         width: 100%;
         margin-left: 0;
         height: auto;
-        ;
         overflow-y: scroll;
     }
 
@@ -367,7 +366,7 @@ footer {
 
     section {
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 130px;
     }
 }
 
@@ -375,5 +374,6 @@ footer {
 
     section {
         height: auto;
+        margin-bottom: 130px;
     }
 }
