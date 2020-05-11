@@ -370,6 +370,14 @@ footer {
     }
 }
 
+@media (min-width: 750px) and (max-width: 949px)  {
+
+    section {
+        height: auto;
+        margin-bottom: 130px;
+    }
+}
+
 @media only screen and (max-width: 1250px) {
 
     section {
