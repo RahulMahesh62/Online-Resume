@@ -289,16 +289,6 @@ footer {
         display: block;
     }
 
-    .edconn {
-        margin-top: -30px;
-        padding-bottom: 0px;
-    }
-
-    .proccon {
-        margin-top: -30px;
-        margin-bottom: 100px;
-    }
-
     #about {
         text-align: center;
         justify-content: center;
@@ -310,7 +300,6 @@ footer {
 
     #about p {
         margin-top: -30px;
-        ;
     }
 
     section {
@@ -347,7 +336,7 @@ footer {
         background-color: #222f3e;
         color: white;
         margin: 0;
-        padding: 17px auto;
+        padding: 7px 2px;
         width: 100%;
     }
 
@@ -365,7 +354,7 @@ footer {
 
     section {
         height: auto;
-        margin-bottom: 130px;
+        margin-bottom: 90px;
     }
 }
 
@@ -373,7 +362,7 @@ footer {
 
     section {
         height: auto;
-        margin-bottom: 130px;
+        margin-bottom: 90px;
     }
 }
 
@@ -381,6 +370,6 @@ footer {
 
     section {
         height: auto;
-        margin-bottom: 130px;
+        margin-bottom: 90px;
     }
 }
