@@ -244,7 +244,7 @@ footer {
     align-items: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     nav {
         display: block;
@@ -347,22 +347,21 @@ footer {
         background-color: #222f3e;
         color: white;
         margin: 0;
-        padding: 7px 19px;
-        padding-left: 72px;
+        padding: 17px auto;
         width: 100%;
     }
 
     footer h3 {
         color: white;
         font-size: 18px;
-        text-align: justify;
+        text-align: center;
         justify-content: center;
         align-self: center;
     }
 
 }
 
-@media only screen and (max-width: 950px) {
+@media (max-width: 950px) {
 
     section {
         height: auto;
@@ -370,7 +369,7 @@ footer {
     }
 }
 
-@media (min-width: 750px) and (max-width: 949px)  {
+@media (min-width: 801px) and (max-width: 949px)  {
 
     section {
         height: auto;
@@ -378,7 +377,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
 
     section {
         height: auto;
