@@ -22,7 +22,7 @@ main {
 
 nav {
     flex: 1;
-    height: 100vh;
+    height: 100%;
     width: 270px;
     background-color: #16a085;
     font-family: 'Baloo Bhai 2', cursive;
@@ -95,6 +95,7 @@ h2 {
 section {
     padding: 45px;
     height: 100vh;
+    margin-bottom: 30px;
 }
 
 i {
@@ -266,9 +267,6 @@ footer {
         display: none;
     }
 
-    nav ul li {
-        display: none;
-    }
 
     main {
         flex-direction: column;
