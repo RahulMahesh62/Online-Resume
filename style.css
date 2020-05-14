@@ -143,7 +143,6 @@ p {
     display: inline;
 }
 
-
 .fav img {
     margin-top: 1px;
     margin-left: 0px;
@@ -151,7 +150,6 @@ p {
     height: 45px;
     width: 45px;
 }
-
 
 .edcont {
     padding-top: 70px;
@@ -247,7 +245,6 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-
     nav {
         display: block;
         top: 0;
@@ -255,7 +252,6 @@ footer {
         height: 50px;
         width: 100%;
     }
-
     nav h3 {
         display: block;
         padding-top: 8px;
@@ -263,12 +259,12 @@ footer {
         color: white;
         float: left;
     }
-
     img {
         display: none;
     }
-
-
+    nav ul {
+        display: none;
+    }
     main {
         flex-direction: column;
         margin: 0;
@@ -277,17 +273,14 @@ footer {
         height: auto;
         overflow-y: scroll;
     }
-
     body {
         height: 100%;
         margin: 0;
         width: 100%;
     }
-
     #mobile {
         display: block;
     }
-
     #about {
         text-align: center;
         justify-content: center;
@@ -296,19 +289,15 @@ footer {
         padding-left: 45px;
         padding-top: 25px;
     }
-
     #about p {
         margin-top: -30px;
     }
-
     section {
         height: auto;
     }
-
     .procontt {
         padding-top: 50px;
     }
-
     p,
     h5 {
         display: block;
@@ -317,19 +306,15 @@ footer {
         align-content: center;
         justify-content: center;
     }
-
     a {
         padding-top: 20px;
     }
-
     .skill-tile {
         display: block;
     }
-
     #certification {
         margin-bottom: 10px;
     }
-
     footer {
         display: block;
         background-color: #222f3e;
@@ -338,7 +323,6 @@ footer {
         padding: 7px 2px;
         width: 100%;
     }
-
     footer h3 {
         color: white;
         font-size: 18px;
@@ -346,19 +330,16 @@ footer {
         justify-content: center;
         align-self: center;
     }
-
 }
 
 @media (max-width: 950px) {
-
     section {
         height: auto;
         margin-bottom: 90px;
     }
 }
 
-@media (min-width: 801px) and (max-width: 949px)  {
-
+@media (min-width: 801px) and (max-width: 949px) {
     section {
         height: auto;
         margin-bottom: 90px;
@@ -366,7 +347,6 @@ footer {
 }
 
 @media (max-width: 1250px) {
-
     section {
         height: auto;
         margin-bottom: 90px;
